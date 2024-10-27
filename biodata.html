@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f8ff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            width: 25%;
+            background-color: #e0e0e0;
+        }
+        h1 {
+            text-align: center;
+        }
+        .audio-container {
+            margin-top: auto;
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f8ff;
+        }
+        .photo {
+            width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Biodata</h1>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <td colspan="2">Muhammad Fauzan Bin Saiful Amin</td>
+            <td><img src="gambo.jpg" alt="Photo" class="photo"></td>
+        </tr>
+        <tr>
+            <th>Date of birth</th>
+            <td colspan="3">21 September, 2003</td>
+        </tr>
+        <tr>
+            <th>Religion</th>
+            <td colspan="3">Islam</td>
+        </tr>
+        <tr>
+            <th>Race</th>
+            <td colspan="3">Malay</td>
+        </tr>
+        <tr>
+            <th rowspan="4">Address</th>
+            <td>Street</td>
+            <td colspan="2">Seksyen 24</td>
+        </tr>
+        <tr>
+            <td>Town</td>
+            <td colspan="2">Shah Alam</td>
+        </tr>
+        <tr>
+            <td>District</td>
+            <td colspan="2">Petaling</td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td colspan="2">Selangor</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Contact</th>
+            <td>Mobile Phone</td>
+            <td colspan="2">017-4304025</td>
+        </tr>
+        <tr>
+            <td>Social Media</td>
+            <td colspan="2">@ratedlib</td>
+        </tr>
+        <tr>
+            <td>Website</td>
+            <td colspan="2">https://github.com/ratedlib</td>
+        </tr>
+        <tr>
+            <th>Course and Institution</th>
+            <td colspan="3">Software Engineering, UTHM</td>
+        </tr>
+        <tr>
+            <th>Programming skills</th>
+            <td colspan="3">Python, Java, HTML, CSS, C#, C</td>
+        </tr>
+        <tr>
+            <th>Personal Interest</th>
+            <td colspan="3">Sleep, Futsal, UI Design</td>
+        </tr>
+        <tr>
+            <th>Future plan in 2025</th>
+            <td colspan="3">Secure a job in a reputable company</td>
+
+        </tr>
+    </table>
+
+    <div class="audio-container">
+        <audio controls autoplay>
+            <source src="piano.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+</body>
+</html>
